@@ -1,0 +1,2 @@
+# Dependencias externas del juego Hundir la Flota
+rich>=13.7,<15.0
