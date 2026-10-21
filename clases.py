@@ -255,9 +255,10 @@ class Jugador():
                 fila_conv = string.ascii_uppercase.index(fila)
                 columna_conv = int(columna) - 1
 
-                if fila_conv not in range(var.TAMANIO_TABLERO) or \
-                    columna_conv not in range(var.TAMANIO_TABLERO):
+                if fila_conv not in range(0, var.TAMANIO_TABLERO) or \
+                    columna_conv not in range(0, var.TAMANIO_TABLERO):
                     print("Coordenadas incorrectas. Inténtalo de nuevo.")
+                    continue
 
                 if (self.tablero_ataque.tablero[fila_conv][columna_conv] == var.IMPACTO) or \
                     (self.tablero_ataque.tablero[fila_conv][columna_conv] == var.FALLO):
