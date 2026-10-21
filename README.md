@@ -150,13 +150,13 @@ El juego mostrará las instrucciones y esperará a que pulses **Enter** para com
 2. Escribe el nombre con el que quieres jugar.
 3. El programa coloca automáticamente tu flota y la del ordenador y empieza con tu turno.
 
-  <div style="text-align: center"><img src="./img/tableros_iniciales.png" width = 400></img></div>
+  <p align: "center"><img src="./img/tableros_iniciales.png" width = 400></img></p>
   
 4. Cuando sea tu turno, introduce la fila de la casilla que quieras atacar (por ejemplo, `B`) y después la columna (por ejemplo, `7`). La coordenada completa sería **B7**.
 5. Si el disparo alcanza un barco, se registra un impacto. Si alcanza la última casilla pendiente de ese barco, se anuncia que ha sido hundido.
 6. Si el disparo cae al agua, se registra el fallo y pasa el turno al ordenador.
 
-  <div style="text-align: center"><img src="./img/primer_ataque_jugador.png" width = 500></img></div>
+  <p align: "center"><img src="./img/primer_ataque_jugador.png" width = 500></img></p>
 
 7. Continúa hasta hundir la flota rival o perder la tuya.
 
