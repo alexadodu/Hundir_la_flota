@@ -11,7 +11,11 @@ flowchart TD
     FUNC --> VAR
     MAIN --> RICH[Rich<br/>Presenta paneles y tableros en terminal]
 ```
+
+
 <script src="https://github.com"></script>
+
+
 
 - **`main.py`**: pone en marcha el juego, crea los participantes, organiza los turnos y decide cuándo termina la partida.
 - **`clases.py`**: contiene los objetos que representan el tablero y a los participantes.
